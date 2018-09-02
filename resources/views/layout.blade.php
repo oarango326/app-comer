@@ -35,7 +35,7 @@
                   <li class="{{ activa('visitas*') }}">
                     <a class="nav-link" href="{{ route('visitas.index') }}">Visitas</a>
                   </li>
-                  <li class="{{ activa('cobros') }}">
+                  <li class="{{ activa('cobros*') }}">
                     <a class="nav-link" href="{{ route('cobros.index') }}">Cobros</a>
                   </li>
                   <li class="nav-item ">
